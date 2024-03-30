@@ -1,0 +1,137 @@
+Problem Solving
+Algorithms
+Data Structures
+Debugging
+Version Control (e.g., Git)
+Code Review
+Unit Testing
+Object-Oriented Programming (OOP)
+Functional Programming
+Web Development
+Mobile App Development
+Database Design and Management
+API Integration
+Backend Development
+Frontend Development
+User Interface (UI) Design
+User Experience (UX) Design
+Responsive Design
+Cross-Browser Compatibility
+Testing and Quality Assurance
+Continuous Integration (CI) / Continuous Deployment (CD)
+Security Best Practices
+Performance Optimization
+RESTful API Design
+Microservices Architecture
+Cloud Computing (e.g., AWS, Azure, Google Cloud)
+DevOps Practices
+Containerization (e.g., Docker, Kubernetes)
+Serverless Computing
+Web Sockets
+Real-Time Communication
+Scalability
+Databases (SQL, NoSQL)
+Data Modeling
+ORM (Object-Relational Mapping)
+Caching Strategies
+Web Frameworks (e.g., Django, Flask, Ruby on Rails)
+Frontend Frameworks (e.g., React, Angular, Vue.js)
+State Management (for frontend)
+GraphQL
+Web Performance
+Mobile Frameworks (e.g., React Native, Flutter)
+Cross-Platform Development
+Desktop App Development
+API Documentation
+Software Design Patterns
+Dependency Management
+Logging and Monitoring
+Automated Testing
+Accessibility Standards (WCAG)
+Internationalization (i18n)
+Localization (l10n)
+Code Refactoring
+Code Optimization
+Multithreading
+Networking and Protocols
+Encryption and Security Protocols
+Machine Learning and AI Basics
+Natural Language Processing (NLP)
+Data Analysis
+Visualization Tools (e.g., D3.js, Matplotlib)
+Big Data Technologies (e.g., Hadoop, Spark)
+Blockchain Development
+Augmented Reality (AR)
+Virtual Reality (VR)
+Game Development
+Embedded Systems
+IoT (Internet of Things)
+Sensor Integration
+Robotics Programming
+Image and Video Processing
+Audio Processing
+3D Modeling
+Versioning Tools (e.g., SemVer)
+Software Architecture
+API Design and Documentation
+Remote Collaboration Tools
+Agile and Scrum Methodologies
+Project Management Tools
+Technical Writing
+Teaching and Mentoring
+Community Involvement
+Server Administration
+Data Science Tools
+Web Scraping
+Cloud Services
+Neural Networks
+Docker Compose and Orchestration
+Video Game Engines
+Graphics Programming
+Python
+JavaScript
+Java
+C++
+C#
+Ruby
+PHP
+Swift
+Kotlin
+Go
+Rust
+TypeScript
+Dart
+R
+MATLAB
+Lua
+Scala
+Perl
+Shell Scripting (e.g., Bash)
+Graphic Design
+User-Centered Design
+Interaction Design
+Visual Design
+Wireframing and Prototyping
+Typography
+Color Theory
+Icon Design
+Illustration
+Motion Graphics
+Animation
+User Research
+A/B Testing
+Design Thinking
+Responsive Design
+Mobile Design
+Web Design
+Print Design
+Brand Identity Design
+User Flows and Information Architecture
+Design Systems
+Usability Testing
+User Feedback Analysis
+Sketching and Illustration
+Photo Editing and Manipulation
+3D Rendering
+Virtual Reality (VR) Design
+Augmented Reality (AR) Design

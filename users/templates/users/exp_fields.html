@@ -1,0 +1,24 @@
+<style>
+.Input_formControl__9cMad:first-child {
+    flex-grow: 7; /* 70% of available space */
+}
+.Input_formControl__9cMad:nth-child(2) {
+    flex-grow: 3; /* 30% of available space */
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Optional: Align items to the top */
+</style>
+
+<div class="ReactModal__Overlay ReactModal__Overlay--after-open hidden" id="{{ idType }}" style="position: fixed; inset: 0px; background-color: rgba(180, 187, 204, 0.6);"><div class="ReactModal__Content ReactModal__Content--after-open" tabindex="-1" role="dialog" aria-label="Modal" aria-modal="true" style="position: absolute; inset: 50% auto auto 50%; border: none; background: rgb(255, 255, 255); overflow: hidden; border-radius: 8px; outline: none; padding: 0px; max-width: calc(100vw - 30px); max-height: calc(100vh - 50px); margin-right: -50%; transform: translate(-50%, -50%); box-shadow: rgba(24, 39, 75, 0.12) 0px 8px 28px -6px, rgba(24, 39, 75, 0.14) 0px 18px 88px -4px; z-index: 999;"><div class="modal_header__mkLt3"><h1 class="modal_heading__NpANh">Work Experience</h1></div><div class="modal_body__ogdgC section_modalBody__DfBZV">
+
+    <form class="forms_form__70PoD" method="post">
+        {% csrf_token %}
+        <div class="flex-container">
+            <div class="Input_formControl__9cMad"><div class="Input_formControlWrapper__g1AuO   ">{{ exp_form.position }}<label class="Input_label__ftL5w   " for="Position">Position</label><span class="Input_leftIcon__hWT8G"></span><span class="Input_icon__FB7xB"></span></div></div>
+            <div class="Input_formControl__9cMad"><div class="Input_formControlWrapper__g1AuO   ">{{ exp_form.year }}<label class="Input_label__ftL5w   " for="Year">Years (optional)</label><span class="Input_leftIcon__hWT8G"></span><span class="Input_icon__FB7xB"></span></div></div>
+        </div>
+        <div class="Textarea_formGroup__kDbAz ">{{ exp_form.userexp }}<label class="Textarea_label__9pvve">Description (optional)</label></div>
+    <div class="modal_footer__41rkh"><button class="btn btn-text-dark section_cancelBtn___9dMM" id="cancelExp">Cancel</button><button class="btn btnSecondary section_submitBtn__rOBVz" type="submit" id="saveExp">Save</button></div>
+    </form></div></div></div>

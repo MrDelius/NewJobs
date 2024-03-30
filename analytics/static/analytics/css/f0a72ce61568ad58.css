@@ -1,0 +1,186 @@
+.logInBySlug_section__0YTat {
+    width: 100%;
+    height: calc(100vh - 98px);
+    background: url(/_next/static/media/bgAuth.b039f3af.png);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.logInBySlug_section__0YTat .logInBySlug_fluidContainer__9mFiS {
+    margin: 100px auto 0
+}
+
+@media(max-width: 500px) {
+    .logInBySlug_section__0YTat {
+        padding:5px;
+        margin: 5px auto
+    }
+}
+
+.logInBySlug_title__3bjam {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: -.02em;
+    color: #111
+}
+
+@media(max-width: 500px) {
+    .logInBySlug_title__3bjam {
+        font-size:24px
+    }
+}
+
+.logInBySlug_description__vqi4_ {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #7c8da6;
+    margin-top: 8px
+}
+
+@media(max-width: 500px) {
+    .logInBySlug_description__vqi4_ {
+        font-size:18px
+    }
+}
+
+.logInBySlug_container__5b_qF {
+    max-width: 450px;
+    width: 100%;
+    margin: 33px auto 0;
+    border: 1px solid #eaecf0;
+    box-shadow: 0 1px 2px 0 rgba(16,24,40,.06),0 1px 3px 0 rgba(16,24,40,.1);
+    border-radius: 20px
+}
+
+.logInBySlug_header__8tA2M {
+    background: #d0d5dd;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px 20px 0 0
+}
+
+.logInBySlug_header__8tA2M .logInBySlug_btn__luLbZ {
+    align-items: center;
+    width: 50%;
+    display: flex;
+    background: transparent;
+    border: 20px;
+    padding: 17px 47px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+    color: #667085;
+    justify-content: center
+}
+
+@media(max-width: 450px) {
+    .logInBySlug_header__8tA2M .logInBySlug_btn__luLbZ {
+        padding:17px 18px
+    }
+}
+
+.logInBySlug_header__8tA2M .logInBySlug_btn__luLbZ.logInBySlug_active__u1F_U {
+    color: #3f8cff
+}
+
+.logInBySlug_header__8tA2M .logInBySlug_icon__X05j8 {
+    margin-right: 5px;
+    display: flex
+}
+
+.logInBySlug_header__8tA2M .logInBySlug_active__u1F_U {
+    background-color: #fff!important;
+    border-radius: 20px 20px 0 0!important
+}
+
+.logInBySlug_body___jSd_ {
+    background-color: #fff;
+    padding: 24px 32px;
+    border-radius: 0 0 20px 20px
+}
+
+@media(max-width: 450px) {
+    .logInBySlug_body___jSd_ {
+        padding:20px
+    }
+}
+
+.logInBySlug_body___jSd_ .logInBySlug_lable__CKgOq {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111;
+    margin-bottom: 6px;
+    margin-top: 10px
+}
+
+@media(max-width: 450px) {
+    .logInBySlug_body___jSd_ .logInBySlug_lable__CKgOq {
+        margin-top:10px
+    }
+}
+
+.logInBySlug_body___jSd_ .logInBySlug_iconBtn__uuwz8 {
+    background-color: transparent
+}
+
+.logInBySlug_body___jSd_ .logInBySlug_btnBig__au1WY {
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 24px;
+    cursor: pointer
+}
+
+@media(max-width: 450px) {
+    .logInBySlug_body___jSd_ .logInBySlug_btnBig__au1WY {
+        font-size:14px
+    }
+}
+
+.logInBySlug_body___jSd_ .logInBySlug_isLoading__1oCEC {
+    background: rgba(165,180,203,.24)!important
+}
+
+.logInBySlug_body___jSd_ .logInBySlug_hasAccount__Txifa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    text-align: center
+}
+
+@media(max-width: 400px) {
+    .logInBySlug_body___jSd_ .logInBySlug_hasAccount__Txifa {
+        flex-direction:column
+    }
+}
+
+.logInBySlug_body___jSd_ .logInBySlug_hasAccount__Txifa .logInBySlug_textBottom__vIxdr {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000
+}
+
+.logInBySlug_body___jSd_ .logInBySlug_hasAccount__Txifa .logInBySlug_btn__luLbZ {
+    color: #3f8cff;
+    cursor: pointer;
+    margin-left: 4px
+}
+
+.logInBySlug_body___jSd_ .logInBySlug_forgotPassword__WLa2y {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3f8cff;
+    margin-top: 12px
+}

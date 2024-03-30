@@ -1,0 +1,145 @@
+<style>
+.m2m {
+    width: 50%; /* Set form width to half of screen width */
+    display: flex; /* Use flexbox to control children layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: stretch; /* Children will stretch to fit width */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+/* Style for the children of the form */
+.m2m > * {
+    flex: 1; /* Children will take up equal space vertically */
+    margin-bottom: 10px; /* Add spacing between children */
+}
+
+.css-e9ozti-container {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    bottom: 0px;
+    border-radius: 8px;
+}.css-7pg0cj-a11yText {
+    z-index: 9999;
+    border: 0px;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    padding: 0px;
+    white-space: nowrap;
+}.css-yv5jcz-control {
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: default;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 38px;
+    position: relative;
+    transition: all 100ms ease 0s;
+    background-color: transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: none;
+    padding: 0px 10px;
+    outline: 0px !important;
+}.css-hlgwow {
+    -webkit-box-align: center;
+    align-items: center;
+    display: grid;
+    flex: 1 1 0%;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+    padding: 2px 8px;
+    box-sizing: border-box;
+}.css-1nqp6tg-singleValue {
+    grid-area: 1 / 1 / 2 / 3;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: rgb(65, 66, 77);
+    margin-left: 2px;
+    margin-right: 2px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 600;
+}.css-19bb58m {
+    visibility: visible;
+    flex: 1 1 auto;
+    display: inline-grid;
+    grid-area: 1 / 1 / 2 / 3;
+    grid-template-columns: 0px min-content;
+    margin: 2px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    color: rgb(51, 51, 51);
+    box-sizing: border-box;
+}.css-1hpdk0c {
+    -webkit-box-align: center;
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}.css-1hyfx7x {
+    display: none;
+}.css-1xc3v61-indicatorContainer {
+    display: flex;
+    transition: color 150ms ease 0s;
+    color: rgb(204, 204, 204);
+    padding: 8px;
+    box-sizing: border-box;
+}.css-8mmkcg {
+    display: inline-block;
+    fill: currentcolor;
+    line-height: 1;
+    stroke: currentcolor;
+    stroke-width: 0;
+}.css-1hpdk0c svg path {
+    fill: rgb(134, 146, 166);
+}.Button_button__XAWhu{
+    border-radius: 8px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border: 1px solid rgb(208, 213, 221);
+}.m2m-choices {
+    max-height: 200px; /* Set an appropriate maximum height */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds the height */
+    border: 1px solid #ccc; /* Add a border for styling */
+    padding: 10px; /* Add padding for spacing */
+}
+/* Show the hidden div */
+.hidden {
+    display: none;
+}
+</style>
+<form id="{{ idType }}" method="post" class="m2m hidden">
+
+    {% csrf_token %}
+    <div class="customselect_wrapper__p_mya undefined">
+        <div class=" customselect_select__65tci   undefined"><span class="customselect_placeholder__5N2kD">Occupation</span>
+            <div class=" css-e9ozti-container" id="long-value-select"><span id="react-select-long-value-select-live-region" class="css-7pg0cj-a11yText"></span><span aria-live="polite" aria-atomic="false" aria-relevant="additions text" class="css-7pg0cj-a11yText"></span>
+                <div class=" css-yv5jcz-control" id="{{ controller }}">
+                    <div class=" css-hlgwow">
+                    <div class=" css-1nqp6tg-singleValue">Select</div>
+                    <div class=" css-19bb58m" data-value=""><input class="" autocapitalize="none" autocomplete="off" autocorrect="off" id="react-select-long-value-select-input" spellcheck="false" tabindex="0" type="text" aria-autocomplete="list" aria-expanded="false" aria-haspopup="true" role="combobox" value="" style="color: inherit; background: 0px center; opacity: 1; width: 100%; grid-area: 1 / 2 / auto / auto; font: inherit; min-width: 2px; border: 0px; margin: 0px; outline: 0px; padding: 0px;"></div></div>
+                    <div class=" css-1hpdk0c"><span class=" css-1hyfx7x"></span>
+                        <div class=" css-1xc3v61-indicatorContainer" aria-hidden="true"><svg height="20" width="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false" class="css-8mmkcg"><path d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"></path></svg></div></div></div></div></div>
+        <div id="{{ choices }}" class="m2m-choices hidden">
+            <!-- Render your choices for the many-to-many field here -->
+            {% for choice in form_choices %}
+                <label><input type="checkbox" name="{{ form_name }}" value="{{ choice.0 }}"> {{ choice.1 }}</label><br>
+            {% endfor %}
+        </div>
+
+    </div>
+    <div style="" class=" customselect_select__65tci customselect_disabled__wUwI_  undefined"></div>
+    <div><button class="Button_button__XAWhu Button_text__YqR_O Button_medium__B37yi Button_primary__Fu8l7   section_button__LnPWb" type="button" id="{{cancel}}">Cancel</button>
+    <button class="Button_button__XAWhu Button_contained__lHiVY Button_medium__B37yi Button_primary__Fu8l7   section_button__LnPWb" type="submit" id="{{save}}">Save</button></div>
+</form>

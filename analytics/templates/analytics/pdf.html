@@ -1,0 +1,27 @@
+<!-- pdf.html -->
+{% extends 'analytics/base.html' %}
+
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+{% endblock %}
+
+{% block title %}
+ConvoPDF
+{% endblock %}
+
+{% block content %}
+<main>
+      <section>
+        <div class="drop_wrapper">
+          <div class="drop-zone">
+            <span class="drop-zone__prompt">Drop file here or click to upload</span>
+            <input type="file" name="myFile" class="drop-zone__input" />
+          </div>
+        </div>
+      </section>
+</main>
+
+<script src="./main.js"></script>
+{% endblock %}

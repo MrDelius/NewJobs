@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Add your stylesheets and scripts if needed -->
+</head>
+<body>
+    <div>
+        <h1>Resume</h1>
+        <!-- Render the resume content using data and styles -->
+        {% for key, value in data.items %}
+            <p><strong>{{ key }}:</strong> {{ value }}</p>
+            {% if key == "About me" or key == "Links to social accounts" %}
+                <hr>
+            {% endif %}
+            {% if key == "Links to social accounts" %}
+                {% for link in value|linebreaksbr %}
+                    <p><a href="{{ link }}">{{ link }}</a></p>
+                {% endfor %}
+            {% endif %}
+            {% if key != "Awards" %}
+                <hr>
+            {% endif %}
+        {% endfor %}
+    </div>
+</body>
+</html>
